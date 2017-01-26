@@ -1,0 +1,23 @@
+{
+	"name": "color-palettes",
+	"version": "1.0.0",
+	"description": "Color palettes available at http://www.highcharts.com/",
+	"main": "app.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"files": [
+		"app.js"
+	],
+	"author": "Thiago Nascimento",
+	"license": "MIT",
+	"homepage": "https://github.com/thiagodnf/color-palettes",
+	"dependencies": {
+		"serve-static": "",
+		"connect": "",
+		"network":""
+  	}
+}
