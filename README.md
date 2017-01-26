@@ -2,3 +2,6 @@
 # Color Palettes
 Color palettes available at http://www.highcharts.com/
 
+#Access
+
+https://thiagodnf.github.io/color-palettes/
