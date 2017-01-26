@@ -1,10 +1,4 @@
-# Courseplay Path Editor
-A simple tool for visual editing of paths for Courseplay, a mod for Farming Simulator.
+![alt tag](https://raw.githubusercontent.com/thiagodnf/shopping-list/master/images/favicon/android-icon-72x72.png)
+# Shopping List
+Color palettes available at http://www.highcharts.com/
 
-## Working in progress
-
-## Contact
-
-If you encounter any problems, please use the [GitHub Issue Tracker](https://github.com/thiagodnf/courseplay-path-editor/issues) .
-
-If you like this project, let me know.
