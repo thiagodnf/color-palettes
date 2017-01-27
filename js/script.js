@@ -14,7 +14,7 @@ var colorPalettes = [
 ]
 
 function getColor(color){
-    return "<div class='col-md-1' data-clipboard-text='"+color+"' style='background-color: "+color+"'><center>"+color+"</center></div>"
+    return "<div class='col-md-1 color' data-clipboard-text='"+color+"' style='background-color: "+color+"'>"+color+"</div>"
 }
 
 function getPaletteColors(colors){
@@ -28,7 +28,7 @@ function getPaletteColors(colors){
 }
 
 function getPaletteName(str){
-    return "<h1>"+str+"</h1>";
+    return "<h3>"+str+"</h3>";
 }
 
 $(function(){
@@ -42,7 +42,7 @@ $(function(){
 
     $("#palettes").html(html);
 
-    var clipboard = new Clipboard('.col-md-1');
+    var clipboard = new Clipboard('.color');
 
     clipboard.on('success', function(event) {
         event.clearSelection();

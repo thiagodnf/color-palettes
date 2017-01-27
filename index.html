@@ -38,10 +38,53 @@
     </head>
     <body>
 
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top" id="custom-bootstrap-menu">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Color Palettes</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+        			<ul class="nav navbar-nav">
+        				<li><a href="https://github.com/thiagodnf/color-palettes" target="_blank">Source Code</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#about" id="btn-about" >About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="container">
-            <h1 id="title">Color Palettes</h1>
-            <hr>
             <div id="palettes"></div>
+        </div>
+
+        <div class="modal" tabindex="-1" role="dialog" id="about" aria-labelledby="label-about">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img src="images/logo.png"  class='img-responsive' alt="logo"/>
+                            </div>
+                            <div class="col-xs-10">
+                                <h4>Color Palettes</h4>
+                                <p><small>Version: 1.0.0, Developed by <a href="http://github.com/thiagodnf/" target="-_blank">Thiago Nascimento</a></small></p>
+                                <p>Color palettes available at http://www.highcharts.com/</p>
+                                <p><a href="http://github.com/thiagodnf/color-palettes" target="_blank">How does it work?</a></p>
+                                <p><em>If you encounter any problems, please use the <a href="https://github.com/thiagodnf/color-palettes/issues" target="-_blank">GitHub Issue Tracker</a>. <br>Did you  like this project? Let me know.</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-close" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <script src="js/vendor/jquery-3.1.1.min.js"></script>
