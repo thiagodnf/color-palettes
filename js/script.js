@@ -13,7 +13,7 @@ var colorPalettes = [
     },
     {
         version: "Random",
-        colors: ['#EAEFF2', '#AA4643', '#89A54E', '#80699B', '#3D96AE', '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92']
+        colors: ['#EAEFF2', '#EAEFF2', '#FF84AF', '#FFA700', '#0072C4', '#00A6E1', '#FF0000', '#73909E', '#73909E']
     }
 ]
 
