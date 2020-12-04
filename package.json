@@ -1,23 +1,26 @@
 {
-	"name": "color-palettes",
-	"version": "1.0.0",
-	"description": "Color palettes available at http://www.highcharts.com/",
-	"main": "app.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": ">=0.10.0"
-	},
-	"files": [
-		"app.js"
-	],
-	"author": "Thiago Nascimento",
-	"license": "MIT",
-	"homepage": "https://github.com/thiagodnf/color-palettes",
-	"dependencies": {
-		"connect": "",
-		"network": "",
-		"serve-static": ""
-	}
+    "name": "color-palettes",
+    "version": "0.0.2",
+    "description": "A set of useful color palettes for your project",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "lint": "npx eslint .",
+        "lint-fix": "npx eslint . --fix"
+    },
+    "keywords": [
+        "color-palettes"
+    ],
+    "author": "Thiago Ferreira",
+    "license": "MIT",
+    "dependencies": {
+        "babel-eslint": "^10.1.0",
+        "bootstrap": "^4.5.3",
+        "eslint": "^7.14.0",
+        "next": "^10.0.3",
+        "react": "^17.0.1",
+        "react-bootstrap": "^1.4.0",
+        "react-dom": "^17.0.1",
+        "sass": "^1.29.0"
+    }
 }
