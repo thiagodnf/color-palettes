@@ -8,7 +8,11 @@ A set of useful color palettes for your project
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-## Screenshot
+## Usage
+
+If you want to access the list of color palettes, please access the following link:
+
+<a target="_blank" href="https://color-palettes-nine.vercel.app"></a>
 
 ## For Developers
 
@@ -29,6 +33,12 @@ If you want to commit some changes, please run the following command:
 ```sh
 npm run eslint-fix
 ```
+
+## Screenshot
+
+<kbd>
+    <img src="https://user-images.githubusercontent.com/114015/101209983-be194280-3642-11eb-957c-c111e22ee4f2.png"/>
+</kbd>
 
 ## Questions or Suggestions
 
