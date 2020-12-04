@@ -12,7 +12,7 @@ A set of useful color palettes for your project
 
 If you want to access the list of color palettes, please access the following link:
 
-<a target="_blank" href="https://color-palettes-nine.vercel.app"></a>
+https://color-palettes-nine.vercel.app
 
 ## For Developers
 
