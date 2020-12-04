@@ -6,7 +6,7 @@ function Component(props) {
 
     const palette = props.palette;
 
-    const listItems = palette.colors.map((color, i) =>
+    const colors = palette.colors.map((color, i) =>
         <Color key={i} color={color}/>
     );
 
@@ -17,7 +17,7 @@ function Component(props) {
             </Card.Header>
             <Card.Body className="horizontal-scroll pb-0">
                 <div className="colors" >
-                    {listItems}
+                    {colors}
                 </div>
             </Card.Body>
         </Card>
