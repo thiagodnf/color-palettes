@@ -10,6 +10,26 @@ A set of useful color palettes for your project
 
 ## Screenshot
 
+## For Developers
+
+To install the this project in your machine, please install all dependencies by using the following command:
+
+```sh
+npm install
+```
+
+To run it, please run the following command:
+
+```sh
+npm run dev
+```
+
+If you want to commit some changes, please run the following command:
+
+```sh
+npm run eslint-fix
+```
+
 ## Questions or Suggestions
 
 Feel free to create <a href="https://github.com/thiagodnf/color-palettes/issues">issues</a> here as you need
