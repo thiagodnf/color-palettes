@@ -20,5 +20,8 @@
     },{
         "name": "University of Michigan-Dearborn",
         "colors": ["#171717","#022441","#FFC22E", "#F9F9F9", "#FFFFFF", "#F5F7F9", "#DADEE1"]
+    },{
+        "name": "Red-Yellow-Green",
+        "colors": ["#fb0007","#f38337","#fdb409", "#ffff0b", "#8cff28", "#5bff27", "#30c627"]
     }
 ]
