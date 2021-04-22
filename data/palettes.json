@@ -23,5 +23,11 @@
     },{
         "name": "Red-Yellow-Green",
         "colors": ["#fb0007","#f38337","#fdb409", "#ffff0b", "#8cff28", "#5bff27", "#30c627"]
+    },{
+        "name": "Apple iMac 2021 - Front",
+        "colors": ["#25476d","#10505b","#b72c31","#c7c8ca","#d48207","#e36942","#353a71"]
+    },{
+        "name": "Apple iMac 2021 - Back",
+        "colors": ["#a8bed2","#a4beb2","#eeb8b0","#c7c8ca","#eaca96","#e9aa95","#abacca"]
     }
 ]
