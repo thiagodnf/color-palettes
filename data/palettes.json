@@ -27,6 +27,9 @@
         "name": "Gazeta do Povo",
         "colors": ["#FC6451", "#FF932F", "#FFD000", "#00F7C6", "#00DF87", "#00C3E5"]
     },{
+        "name": "Hygge Color Palette",
+        "colors": ["#F4F7EA", "#E3DECF", "#B7BDC0", "#D5CECA", "#B9B1A6", "#58504B"]
+    },{
         "name": "Apple iMac 2021 - Front",
         "colors": ["#25476d","#10505b","#b72c31","#c7c8ca","#d48207","#e36942","#353a71"]
     },{
@@ -34,3 +37,5 @@
         "colors": ["#a8bed2","#a4beb2","#eeb8b0","#c7c8ca","#eaca96","#e9aa95","#abacca"]
     }
 ]
+
+
