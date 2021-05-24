@@ -15,6 +15,9 @@
         "name": "R",
         "colors": ["#9E77A1", "#9A8FBB", "#8AA9C0", "#7BC1BF", "#7ED9B1", "#B2ED90", "#FDF57A"]
     },{
+        "name": "Viridis Color",
+        "colors": ["#340042", "#371865", "#2f3776", "#26547b", "#20707b", "#1f8f76", "#2fac66", "#5ec747", "#a7db22", "#a7db22",]
+    },{
         "name": "Dracula Theme",
         "colors": ["#282a36", "#44475a", "#f8f8f2", "#6272a4", "#8be9fd", "#50fa7b", "#ffb86c", "#ff79c6", "#bd93f9", "#ff5555", "#f1fa8c"]
     },{
