@@ -38,6 +38,9 @@
     },{
         "name": "Apple iMac 2021 - Back",
         "colors": ["#a8bed2","#a4beb2","#eeb8b0","#c7c8ca","#eaca96","#e9aa95","#abacca"]
+    },{
+        "name": "University of Michigan Well-being",
+        "colors": ["#5797CD","#BB67A9","#12B492","#D2DF41","#48648A","#F37A3A","#FECC41", "#28C0D6"]
     }
 ]
 
