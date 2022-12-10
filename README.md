@@ -41,7 +41,7 @@ npm run eslint-fix
 ## Screenshot
 
 <kbd>
-    <img src="https://user-images.githubusercontent.com/114015/101209983-be194280-3642-11eb-957c-c111e22ee4f2.png"/>
+    <img class="screenshot" src="https://user-images.githubusercontent.com/114015/101209983-be194280-3642-11eb-957c-c111e22ee4f2.png"/>
 </kbd>
 
 ## Questions or Suggestions
