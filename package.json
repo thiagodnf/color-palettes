@@ -9,6 +9,9 @@
         "lint-fix": "npx eslint . --fix",
         "update-dependencies": "ncu -u"
     },
+    "engines": {
+        "node": ">=16.0.0"
+      },
     "keywords": [
         "color-palettes"
     ],
