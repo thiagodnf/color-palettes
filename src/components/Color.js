@@ -27,7 +27,7 @@ function Component(props) {
     const color = props.color;
 
     return (
-        <Card className="color mr-3 mb-4" style={{backgroundColor: color}} onClick={onClick}>
+        <Card className="color me-3 mb-4" style={{backgroundColor: color}} onClick={onClick}>
             <Card.Body className="colorHex">
                 {color}
             </Card.Body>
