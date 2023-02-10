@@ -6,7 +6,7 @@ function Component({handleSearchTerm}) {
     return (
         <Navbar bg="light" fixed="top">
             <Container fluid>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     Color Palettes
                 </Navbar.Brand>
                 <Navbar.Toggle />
