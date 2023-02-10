@@ -1,6 +1,8 @@
 $dracula-black-1: #15171b;
 $dracula-black-2: #1d1e26;
+$dracula-black-3: #282a36;
 $dracula-white: #f8f8f2;
+$dracula-cian: #80ffea;
 $dracula-gray: #414558;
 
 body {
@@ -13,12 +15,17 @@ body {
 
     background-color: $dracula-black-1;
 
-    a {
-        color: gray !important;
+    .nav-link {
+
+        color: $dracula-gray !important;
+
+        &:hover{
+            color: $dracula-white !important;
+        }
     }
 
     .navbar-brand {
-        color: #61dafb !important;
+        color: $dracula-cian !important;
     }
 }
 
@@ -28,7 +35,7 @@ body {
     border: 1px solid $dracula-gray;
 
     .card-header{
-        background-color: #282a36;
+        background-color: $dracula-black-3;
         border-bottom: 1px solid $dracula-gray;
     }
 
@@ -56,3 +63,20 @@ body {
         cursor: pointer;
     }
 }
+
+input,
+select {
+
+    color: $dracula-white !important;
+    background-color: $dracula-black-2 !important;
+    border-color: $dracula-black-3 !important;
+
+    &:focus {
+        border-color: $dracula-black-1 !important;
+    }
+
+    &::placeholder {
+        color: $dracula-gray !important;
+    }
+}
+
