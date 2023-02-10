@@ -1,10 +1,10 @@
 import Navbar from "react-bootstrap/Navbar";
-import { Nav, Container, Form, Button } from "react-bootstrap";
+import { Nav, Container, Form } from "react-bootstrap";
 
-function Component({handleSearchTerm}) {
+function Component({ handleSearchTerm }) {
 
     return (
-        <Navbar bg="light" fixed="top">
+        <Navbar fixed="top">
             <Container fluid>
                 <Navbar.Brand href="/">
                     Color Palettes

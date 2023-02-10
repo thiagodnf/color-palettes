@@ -1,10 +1,17 @@
+$dracula-black-1: #15171b;
+$dracula-black-2: #1d1e26;
+$dracula-white: #f8f8f2;
+$dracula-gray: #414558;
+
 body {
     margin-top: 80px !important;
+    color: $dracula-white;
+    background-color: $dracula-black-2 !important ;
 }
 
 .navbar {
 
-    background: black !important;
+    background-color: $dracula-black-1;
 
     a {
         color: gray !important;
@@ -13,6 +20,18 @@ body {
     .navbar-brand {
         color: #61dafb !important;
     }
+}
+
+.card{
+
+    background-color: transparent;
+    border: 1px solid $dracula-gray;
+
+    .card-header{
+        background-color: #282a36;
+        border-bottom: 1px solid $dracula-gray;
+    }
+
 }
 
 .horizontal-scroll>.colors {

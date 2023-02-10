@@ -7,9 +7,7 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
-                <title>Color Palettes</title>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="description" content={Package.description} />
                 <meta name="author" content={Package.author} />
                 <meta name="keywords" content={Package.keywords} />

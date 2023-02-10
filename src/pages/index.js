@@ -50,6 +50,7 @@ function IndexPage({ palettes }) {
         <>
             <Head>
                 <title>Color Palettes</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <Navbar handleSearchTerm={handleSearchTerm} />
             <Container fluid>
