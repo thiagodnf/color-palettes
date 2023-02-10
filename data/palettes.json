@@ -42,6 +42,11 @@
         "name": "University of Michigan Well-being",
         "colors": ["#5797CD","#BB67A9","#12B492","#D2DF41","#48648A","#F37A3A","#FECC41", "#28C0D6"]
     }
+    
+    ,{
+        "name": "Dracula UI",
+        "colors": ["#15171b", "","","","","","", ""]
+    }
 ]
 
 
