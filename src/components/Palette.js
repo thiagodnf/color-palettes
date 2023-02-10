@@ -2,16 +2,14 @@ import Card from "react-bootstrap/Card";
 
 import Color from "./Color";
 
-function Component(props) {
-
-    const palette = props.palette;
+function Component({palette}) {
 
     const colors = palette.colors.map((color, i) =>
         <Color key={i} color={color}/>
     );
 
     return (
-        <Card className="palette mb-4">
+        <Card className="mb-4">
             <Card.Header>
                 {palette.name}
             </Card.Header>
