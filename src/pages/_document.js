@@ -12,6 +12,7 @@ export default function Document() {
                 <meta name="author" content={Package.author} />
                 <meta name="keywords" content={Package.keywords} />
                 <meta name="mobile-web-app-capable" content="yes" />
+                <meta name="theme-color" content="#15171b" />
                 <meta name="apple-mobile-web-app-capable" content="yes" />
                 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
                 <meta name="apple-mobile-web-app-title" content={Package.author} />
