@@ -2,13 +2,21 @@ $dracula-black-1: #15171b;
 $dracula-black-2: #1d1e26;
 $dracula-black-3: #282a36;
 $dracula-white: #f8f8f2;
-$dracula-cian: #80ffea;
 $dracula-gray: #414558;
+$dracula-secondary: #8a8f98;
+
+$dracula-cian: #80ffea;
+$dracula-green: #50fa7b;
+$dracula-orange: #ffb86c;
+$dracula-pink: #ff80bf;
+$dracula-purple: #9580ff;
+$dracula-red: #ff9580;
+$dracula-yellow: #ffff80;
 
 body {
     margin-top: 80px !important;
     color: $dracula-white;
-    background-color: $dracula-black-2 !important ;
+    background-color: $dracula-black-2 !important;
 }
 
 .navbar {
@@ -17,9 +25,9 @@ body {
 
     .nav-link {
 
-        color: $dracula-gray !important;
+        color: $dracula-secondary !important;
 
-        &:hover{
+        &:hover {
             color: $dracula-white !important;
         }
     }
@@ -27,14 +35,23 @@ body {
     .navbar-brand {
         color: $dracula-cian !important;
     }
+
+    .navbar-toggler {
+
+        border-color: $dracula-black-3 !important;
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(248, 248, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+    }
 }
 
-.card{
+.card {
 
     background-color: transparent;
     border: 1px solid $dracula-gray;
 
-    .card-header{
+    .card-header {
         background-color: $dracula-black-3;
         border-bottom: 1px solid $dracula-gray;
     }
@@ -80,3 +97,44 @@ select {
     }
 }
 
+
+@-webkit-keyframes animatedGradient {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    to {
+        background-position: 0 50%
+    }
+}
+
+@keyframes animatedGradient {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    to {
+        background-position: 0 50%
+    }
+}
+
+.gradient-text {
+    animation: animatedGradient 6s ease infinite alternate;
+    -webkit-animation: animatedGradient 6s ease infinite alternate;
+    background-color: #f3ec78;
+    background-image: linear-gradient(135deg, $dracula-orange, $dracula-yellow, $dracula-red, $dracula-pink, $dracula-purple, $dracula-cian, $dracula-green);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

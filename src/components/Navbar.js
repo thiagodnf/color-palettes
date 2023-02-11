@@ -4,12 +4,12 @@ import { Nav, Container, Form } from "react-bootstrap";
 function Component({ handleSearchTerm }) {
 
     return (
-        <Navbar fixed="top">
+        <Navbar fixed="top" expand="sm">
             <Container fluid>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/" className="gradient-text">
                     Color Palettes
                 </Navbar.Brand>
-                <Navbar.Toggle />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="https://github.com/thiagodnf/color-palettes">Source code</Nav.Link>
