@@ -17,6 +17,8 @@ function handleOnClick({ target }) {
             target.textContent = color;
         }, 2000);
     }
+
+    return false;
 }
 
 export default function Color({ color }) {
