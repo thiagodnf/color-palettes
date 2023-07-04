@@ -27,7 +27,7 @@ export default function Color({ color }) {
     };
 
     return (
-        <div className="color me-3 rounded d-flex align-items-center justify-content-center" style={style} onTouchStart={handleOnClick} onClick={handleOnClick}>
+        <div className="color me-3 rounded d-flex align-items-center justify-content-center" style={style} onTouchEnd={handleOnClick} onClick={handleOnClick}>
             {color}
         </div>
     );
