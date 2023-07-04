@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Container, Form, Col } from "react-bootstrap";
 
 import Navbar from "../../src/components/Navbar";
@@ -36,6 +36,10 @@ export default function IndexPage({ palettes }) {
         <Palette key={i} palette={palette} />
     );
 
+    useEffect(() => {
+        document.querySelector("input").focus();
+    });
+
     return (
         <>
             <Head>
@@ -52,7 +56,6 @@ export default function IndexPage({ palettes }) {
                             type="search"
                             size="lg"
                             placeholder="Search"
-                            autoFocus
                             onChange={handleSearchTerm}
                         />
                     </Form.Group>
