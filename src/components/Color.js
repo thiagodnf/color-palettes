@@ -1,10 +1,6 @@
-function handleOnClick({ target }) {
+function handleOnClick({ target, data }) {
 
-    if (!target.className.includes("colorHex")) {
-        target = target.childNodes[0];
-    }
-
-    const color = target.textContent;
+    const color = target.dataset.color;
 
     if (navigator.clipboard) {
 
@@ -27,7 +23,7 @@ export default function Color({ color }) {
     };
 
     return (
-        <div className="color me-3 rounded d-flex align-items-center justify-content-center" style={style} onTouchEnd={handleOnClick} onClick={handleOnClick}>
+        <div data-color={color} className="color me-3 rounded d-flex align-items-center justify-content-center" style={style} onTouchEnd={handleOnClick} onClick={handleOnClick}>
             {color}
         </div>
     );
