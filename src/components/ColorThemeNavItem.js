@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+
 import LocalStorageUtils from "../utils/LocalStorageUtils";
 
 const ColorThemes = Object.freeze({

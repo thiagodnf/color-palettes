@@ -61,10 +61,10 @@ body {
 }
 
 .gradient-text {
-    animation: animatedGradient 6s ease infinite alternate;
-    -webkit-animation: animatedGradient 6s ease infinite alternate;
+    animation: animatedGradient 4s ease infinite alternate;
+    -webkit-animation: animatedGradient 4s ease infinite alternate;
     background-color: #f3ec78;
-    background-image: linear-gradient(135deg, $dracula-orange, $dracula-yellow, $dracula-red, $dracula-pink, $dracula-purple, $dracula-cian, $dracula-green);
+    background-image: linear-gradient(135deg, $dracula-orange, $dracula-red, $dracula-pink, $dracula-purple, $dracula-green);
     background-size: 300% 300%;
     background-clip: text;
     -webkit-background-clip: text;
