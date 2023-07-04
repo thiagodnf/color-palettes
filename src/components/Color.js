@@ -1,8 +1,4 @@
-import Card from "react-bootstrap/Card";
-
-function onClick(event) {
-
-    let target = event.target;
+function onClick({ target }) {
 
     if (!target.className.includes("colorHex")) {
         target = target.childNodes[0];
@@ -18,17 +14,19 @@ function onClick(event) {
 
         window.setTimeout(function () {
             target.textContent = color;
-        }, 1000);
+        }, 2000);
     }
 }
 
 export default function Component({ color }) {
 
+    const style = {
+        backgroundColor: color
+    };
+
     return (
-        <Card className="color me-3 mb-4" style={{ backgroundColor: color }} onClick={onClick}>
-            <Card.Body className="colorHex">
-                {color}
-            </Card.Body>
-        </Card>
+        <div className="color me-3 rounded d-flex align-items-center justify-content-center" style={style} onClick={onClick}>
+            {color}
+        </div>
     );
 }
