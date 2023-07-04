@@ -1,6 +1,5 @@
 function handleOnClick({ target }) {
 
-
     if (!target.className.includes("colorHex")) {
         target = target.childNodes[0];
     }
