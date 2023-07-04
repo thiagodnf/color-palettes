@@ -1,4 +1,5 @@
-function onClick({ target }) {
+function handleOnClick({ target }) {
+
 
     if (!target.className.includes("colorHex")) {
         target = target.childNodes[0];
@@ -25,7 +26,7 @@ export default function Color({ color }) {
     };
 
     return (
-        <div className="color me-3 rounded d-flex align-items-center justify-content-center" style={style} onClick={onClick}>
+        <div className="color me-3 rounded d-flex align-items-center justify-content-center" style={style} onTouchStart={handleOnClick} onClick={handleOnClick}>
             {color}
         </div>
     );
