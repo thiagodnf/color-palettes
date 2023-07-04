@@ -15,7 +15,7 @@ export default function Palette({ palette }) {
                 {palette.name}
             </Card.Header>
             <Card.Body>
-                <div class="row flex-nowrap overflow-auto ms-0">
+                <div className="row flex-nowrap overflow-auto ms-0">
                     {colors}
                 </div>
             </Card.Body>

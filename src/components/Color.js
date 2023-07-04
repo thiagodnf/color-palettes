@@ -18,7 +18,7 @@ function onClick({ target }) {
     }
 }
 
-export default function Component({ color }) {
+export default function Color({ color }) {
 
     const style = {
         backgroundColor: color

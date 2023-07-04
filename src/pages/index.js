@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import { useState } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Form, Col } from "react-bootstrap";
 
 import Navbar from "../../src/components/Navbar";
 import Palette from "../../src/components/Palette";
@@ -42,9 +42,23 @@ export default function IndexPage({ palettes }) {
                 <title>Color Palettes</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <Navbar handleSearchTerm={handleSearchTerm} />
-            <Container fluid>
+            <Navbar />
+            <Container>
+
+                <Form className="pb-5">
+                    <Form.Group controlId="search" as={Col} xs="12" className="text-center">
+                        <Form.Label className="h3 mb-4">Which palette are you looking for?</Form.Label>
+                        <Form.Control
+                            type="search"
+                            size="lg"
+                            placeholder="Search"
+                            onChange={handleSearchTerm}
+                        />
+                    </Form.Group>
+                </Form>
+
                 {items}
+
             </Container>
         </>
     );

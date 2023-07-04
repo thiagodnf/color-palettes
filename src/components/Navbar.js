@@ -1,11 +1,11 @@
 import Navbar from "react-bootstrap/Navbar";
 import { Nav, Container, Form } from "react-bootstrap";
 
-export default function Component({ handleSearchTerm }) {
+export default function Component() {
 
     return (
         <Navbar fixed="top" expand="sm" className="bg-body-tertiary">
-            <Container fluid>
+            <Container>
                 <Navbar.Brand href="/" className="gradient-text">
                     Color Palettes
                 </Navbar.Brand>
@@ -14,13 +14,13 @@ export default function Component({ handleSearchTerm }) {
                     <Nav className="me-auto">
                         <Nav.Link href="https://github.com/thiagodnf/color-palettes">Source code</Nav.Link>
                     </Nav>
-                    <Form className="d-flex">
+                    {/* <Form className="d-flex">
                         <Form.Control
                             type="search"
                             placeholder="Search"
                             onChange={handleSearchTerm}
                         />
-                    </Form>
+                    </Form> */}
                 </Navbar.Collapse>
             </Container>
         </Navbar>
