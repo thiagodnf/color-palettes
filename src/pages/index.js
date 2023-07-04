@@ -52,6 +52,7 @@ export default function IndexPage({ palettes }) {
                             type="search"
                             size="lg"
                             placeholder="Search"
+                            autoFocus
                             onChange={handleSearchTerm}
                         />
                     </Form.Group>

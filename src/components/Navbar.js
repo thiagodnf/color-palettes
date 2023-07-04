@@ -1,26 +1,20 @@
 import Navbar from "react-bootstrap/Navbar";
 import { Nav, Container, Form } from "react-bootstrap";
+import ColorThemeNavItem from "./ColorThemeNavItem";
 
 export default function Component() {
 
     return (
-        <Navbar fixed="top" expand="sm" className="bg-body-tertiary">
+        <Navbar fixed="top" className="bg-body-tertiary">
             <Container>
                 <Navbar.Brand href="/" className="gradient-text">
                     Color Palettes
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="https://github.com/thiagodnf/color-palettes">Source code</Nav.Link>
+                    <Nav className="me-auto"></Nav>
+                    <Nav>
+                        <ColorThemeNavItem />
                     </Nav>
-                    {/* <Form className="d-flex">
-                        <Form.Control
-                            type="search"
-                            placeholder="Search"
-                            onChange={handleSearchTerm}
-                        />
-                    </Form> */}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

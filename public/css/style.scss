@@ -17,6 +17,10 @@ body {
     margin-top: 100px !important;
 }
 
+.dropdown-toggle::after {
+    color: var(--bs-body-color) !important
+}
+
 .color {
 
     width: 120px;
