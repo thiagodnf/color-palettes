@@ -5,7 +5,7 @@ import Package from "../../package.json";
 export default function Document() {
 
     return (
-        <Html lang="en">
+        <Html lang="en" data-bs-theme="dark">
             <Head>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="description" content={Package.description} />

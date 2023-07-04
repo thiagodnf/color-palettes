@@ -1,11 +1,10 @@
 import Head from "next/head";
+
 import { useState } from "react";
-import { useRouter } from "next/router";
+import { Container } from "react-bootstrap";
 
 import Navbar from "../../src/components/Navbar";
 import Palette from "../../src/components/Palette";
-import { Container } from "react-bootstrap";
-
 import palettes from "../../data/palettes.json";
 
 function byName(a, b) {
@@ -23,21 +22,12 @@ function filterOut(array, searchTerm = "") {
     });
 }
 
-function IndexPage({ palettes }) {
-
-    const router = useRouter();
+export default function IndexPage({ palettes }) {
 
     const [searchTerm, setSearchTerm] = useState("");
 
     function handleSearchTerm(event) {
-
-        const value = event.target.value;
-
-        router.replace({
-            query: { ...router.query, q: value },
-        });
-
-        setSearchTerm(value);
+        setSearchTerm(event.target.value);
     }
 
     let items = filterOut(palettes, searchTerm);
@@ -60,7 +50,7 @@ function IndexPage({ palettes }) {
     );
 }
 
-export function getStaticProps() {
+export async function getStaticProps() {
 
     palettes.sort(byName);
 
@@ -70,5 +60,3 @@ export function getStaticProps() {
         }
     };
 }
-
-export default IndexPage;

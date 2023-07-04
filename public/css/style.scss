@@ -15,47 +15,6 @@ $dracula-yellow: #ffff80;
 
 body {
     margin-top: 80px !important;
-    color: $dracula-white;
-    background-color: $dracula-black-2 !important;
-}
-
-.navbar {
-
-    background-color: $dracula-black-1;
-
-    .nav-link {
-
-        color: $dracula-secondary !important;
-
-        &:hover {
-            color: $dracula-white !important;
-        }
-    }
-
-    .navbar-brand {
-        color: $dracula-cian !important;
-    }
-
-    .navbar-toggler {
-
-        border-color: $dracula-black-3 !important;
-
-        .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(248, 248, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-        }
-    }
-}
-
-.card {
-
-    background-color: transparent;
-    border: 1px solid $dracula-gray;
-
-    .card-header {
-        background-color: $dracula-black-3;
-        border-bottom: 1px solid $dracula-gray;
-    }
-
 }
 
 .horizontal-scroll>.colors {
@@ -80,23 +39,6 @@ body {
         cursor: pointer;
     }
 }
-
-input,
-select {
-
-    color: $dracula-white !important;
-    background-color: $dracula-black-2 !important;
-    border-color: $dracula-black-3 !important;
-
-    &:focus {
-        border-color: $dracula-black-1 !important;
-    }
-
-    &::placeholder {
-        color: $dracula-gray !important;
-    }
-}
-
 
 @-webkit-keyframes animatedGradient {
     0% {

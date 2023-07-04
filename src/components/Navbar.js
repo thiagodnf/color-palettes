@@ -1,10 +1,10 @@
 import Navbar from "react-bootstrap/Navbar";
 import { Nav, Container, Form } from "react-bootstrap";
 
-function Component({ handleSearchTerm }) {
+export default function Component({ handleSearchTerm }) {
 
     return (
-        <Navbar fixed="top" expand="sm">
+        <Navbar fixed="top" expand="sm" className="bg-body-tertiary">
             <Container fluid>
                 <Navbar.Brand href="/" className="gradient-text">
                     Color Palettes
@@ -18,7 +18,6 @@ function Component({ handleSearchTerm }) {
                         <Form.Control
                             type="search"
                             placeholder="Search"
-                            autoFocus="autofocus"
                             onChange={handleSearchTerm}
                         />
                     </Form>
@@ -27,5 +26,3 @@ function Component({ handleSearchTerm }) {
         </Navbar>
     );
 }
-
-export default Component;

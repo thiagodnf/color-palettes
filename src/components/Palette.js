@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 
 import Color from "./Color";
 
-function Component({palette}) {
+export default function Component({palette}) {
 
     const colors = palette.colors.map((color, i) =>
         <Color key={i} color={color}/>
@@ -21,5 +21,3 @@ function Component({palette}) {
         </Card>
     );
 }
-
-export default Component;
