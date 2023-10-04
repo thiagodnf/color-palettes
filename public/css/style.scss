@@ -13,6 +13,10 @@ $dracula-purple: #9580ff;
 $dracula-red: #ff9580;
 $dracula-yellow: #ffff80;
 
+html {
+    overflow-y:scroll;
+}
+
 body {
     margin-top: 100px !important;
 }
