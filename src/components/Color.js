@@ -23,7 +23,7 @@ export default function Color({ color }) {
     };
 
     return (
-        <div data-color={color} className="color me-3 rounded d-flex align-items-center justify-content-center" style={style} onTouchEnd={handleOnClick} onClick={handleOnClick}>
+        <div data-color={color} className="color me-3 mb-2 rounded d-flex align-items-center justify-content-center" style={style} onTouchEnd={handleOnClick} onClick={handleOnClick}>
             {color}
         </div>
     );
