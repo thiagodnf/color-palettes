@@ -10,7 +10,7 @@
         "update-dependencies": "npx npm-check-updates -u"
     },
     "engines": {
-        "node": ">=16.0.0"
+        "node": ">=20"
     },
     "keywords": [
         "color-palettes"
