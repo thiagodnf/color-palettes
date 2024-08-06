@@ -7,7 +7,7 @@
         "dev": "next dev",
         "lint": "npx eslint .",
         "lint-fix": "npx eslint . --fix",
-        "update-dependencies": "ncu -u"
+        "update-dependencies": "npx npm-check-updates -u"
     },
     "engines": {
         "node": ">=16.0.0"
@@ -19,13 +19,13 @@
     "license": "MIT",
     "dependencies": {
         "babel-eslint": "10.1.0",
-        "bootstrap": "5.3.2",
-        "bootstrap-icons": "1.11.1",
-        "eslint": "8.51.0",
-        "next": "13.5.5",
-        "react": "18.2.0",
-        "react-bootstrap": "2.9.0",
-        "react-dom": "18.2.0",
-        "sass": "1.69.4"
+        "bootstrap": "5.3.3",
+        "bootstrap-icons": "1.11.3",
+        "eslint": "9.8.0",
+        "next": "14.2.5",
+        "react": "18.3.1",
+        "react-bootstrap": "2.10.4",
+        "react-dom": "18.3.1",
+        "sass": "1.77.8"
     }
 }
