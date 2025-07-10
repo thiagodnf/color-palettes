@@ -1,6 +1,6 @@
 {
     "name": "color-palettes",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A set of useful color palettes for your project",
     "main": "index.js",
     "scripts": {
