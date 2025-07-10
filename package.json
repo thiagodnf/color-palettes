@@ -10,7 +10,7 @@
         "update-dependencies": "npx npm-check-updates -u"
     },
     "engines": {
-        "node": "20.x"
+        "node": "22.x"
     },
     "keywords": [
         "color-palettes"
@@ -19,13 +19,13 @@
     "license": "MIT",
     "dependencies": {
         "babel-eslint": "10.1.0",
-        "bootstrap": "5.3.3",
-        "bootstrap-icons": "1.11.3",
-        "eslint": "9.19.0",
-        "next": "15.1.6",
-        "react": "19.0.0",
-        "react-bootstrap": "2.10.9",
-        "react-dom": "19.0.0",
-        "sass": "1.83.4"
+        "bootstrap": "5.3.7",
+        "bootstrap-icons": "1.13.1",
+        "eslint": "9.30.1",
+        "next": "15.3.5",
+        "react": "19.1.0",
+        "react-bootstrap": "2.10.10",
+        "react-dom": "19.1.0",
+        "sass": "1.89.2"
     }
 }
