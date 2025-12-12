@@ -19,10 +19,10 @@
         "bootstrap": "5.3.8",
         "bootstrap-icons": "1.13.1",
         "eslint": "9.39.1",
-        "next": "16.0.7",
-        "react": "19.2.1",
+        "next": "16.0.10",
+        "react": "19.2.3",
         "react-bootstrap": "2.10.10",
-        "react-dom": "19.2.1",
-        "sass": "1.94.2"
+        "react-dom": "19.2.3",
+        "sass": "1.96.0"
     }
 }
