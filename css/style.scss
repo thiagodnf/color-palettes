@@ -1,0 +1,78 @@
+$dracula-black-1: #15171b;
+$dracula-black-2: #1d1e26;
+$dracula-black-3: #282a36;
+$dracula-white: #f8f8f2;
+$dracula-gray: #414558;
+$dracula-secondary: #8a8f98;
+
+$dracula-cian: #80ffea;
+$dracula-green: #50fa7b;
+$dracula-orange: #ffb86c;
+$dracula-pink: #ff80bf;
+$dracula-purple: #9580ff;
+$dracula-red: #ff9580;
+$dracula-yellow: #ffff80;
+
+html {
+    overflow-y:scroll;
+}
+
+body {
+    margin-top: 100px !important;
+}
+
+.dropdown-toggle::after {
+    color: var(--bs-body-color) !important
+}
+
+.color {
+
+    width: 120px;
+    height: 160px;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+@-webkit-keyframes animatedGradient {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    to {
+        background-position: 0 50%
+    }
+}
+
+@keyframes animatedGradient {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    to {
+        background-position: 0 50%
+    }
+}
+
+.gradient-text {
+    animation: animatedGradient 4s ease infinite alternate;
+    -webkit-animation: animatedGradient 4s ease infinite alternate;
+    background-color: #f3ec78;
+    background-image: linear-gradient(135deg, $dracula-orange, $dracula-red, $dracula-pink, $dracula-purple, $dracula-green);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
