@@ -15,11 +15,7 @@ A set of useful color palettes for your project
 
 If you want to access the list of color palettes, please access the following link:
 
-https://color-palettes-nine.vercel.app
-
-To add a new color palette, change the following file:
-
-https://github.com/thiagodnf/color-palettes/blob/master/data/palettes.json
+https://thiagodnf.github.io/color-palettes/
 
 ## For Developers
 
@@ -40,6 +36,10 @@ If you want to commit some changes, run the following command:
 ```sh
 npm run lint-fix
 ```
+
+To add a new color palette, change the following file:
+
+https://github.com/thiagodnf/color-palettes/blob/master/data/palettes.json
 
 ## Screenshot
 
