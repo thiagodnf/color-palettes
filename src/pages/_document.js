@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 import Package from "../../package.json";
 
@@ -33,6 +34,21 @@ export default function Document() {
             </Head>
             <body>
                 <Main />
+
+                <Script
+                    src="https://www.googletagmanager.com/gtag/js?id=G-CR9SXVEZQZ"
+                    strategy="afterInteractive"
+                />
+
+                <Script id="gtag-init" strategy="afterInteractive">
+                    {`
+                       window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-CR9SXVEZQZ');
+                    `}
+                </Script>
+
                 <NextScript />
             </body>
         </Html>
