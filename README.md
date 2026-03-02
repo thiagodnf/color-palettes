@@ -50,7 +50,7 @@ Feel free to create <a href="https://github.com/thiagodnf/color-palettes/issues"
 
 ## Contribute
 
-Contributions to the this project are very welcome! We can't do this alone! Feel free to fork this project, work on it, and then make a pull request. See also the list of [contributors](/color-palettes/graphs/contributors) who participated in this project.
+Contributions to the this project are very welcome! We can't do this alone! Feel free to fork this project, work on it, and then make a pull request. See also the list of [contributors](https://github.com/thiagodnf/color-palettes/graphs/contributors) who participated in this project.
 
 ## License
 
