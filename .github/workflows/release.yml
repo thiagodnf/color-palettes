@@ -1,0 +1,29 @@
+name: "Release New Version"
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checking out repository
+        uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 24
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
