@@ -2,7 +2,7 @@
 
 <picture >
 	<source srcset="public/images/logo-full-light.png" media="(prefers-color-scheme: dark)">
-	<img src="public/images/logo-full-light.png" width="500px">
+	<img src="public/images/logo-full-dark.png" width="500px">
 </picture>
 
 A set of useful color palettes for your project
