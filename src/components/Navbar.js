@@ -7,7 +7,7 @@ export default function Component() {
     return (
         <Navbar fixed="top" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="#" className="gradient-text2">
+                <Navbar.Brand href="#">
                     <img
                         src="/color-palettes/images/logo-full-dark.png"
                         height="30"
