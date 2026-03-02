@@ -5,7 +5,7 @@ import ColorThemeNavItem from "./ColorThemeNavItem";
 export default function Component() {
 
     return (
-        <Navbar fixed="top" className="bg-body-tertiary">
+        <Navbar fixed="top" className="bg-dark" data-bs-theme="dark">
             <Container>
                 <Navbar.Brand href="#">
                     <img
