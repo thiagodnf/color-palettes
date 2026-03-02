@@ -50,13 +50,7 @@ Feel free to create <a href="https://github.com/thiagodnf/color-palettes/issues"
 
 ## Contribute
 
-Contributions to the this project are very welcome! We can't do this alone! Feel free to fork this project, work on it and then make a pull request.
-
-## Authors
-
-* **Thiago Ferreira** - *Initial work*
-
-See also the list of [contributors](https://github.com/thiagodnf/color-palettes/graphs/contributors) who participated in this project.
+Contributions to the this project are very welcome! We can't do this alone! Feel free to fork this project, work on it, and then make a pull request. See also the list of [contributors](/graphs/contributors) who participated in this project.
 
 ## License
 
@@ -69,8 +63,5 @@ I open-source almost everything I can, and I try to reply to everyone needing he
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
 
 <a href="https://www.buymeacoffee.com/thiagodnf" target="_blank">
-  <img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg" alt="Buy Me A Coffee">
+  <img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg" alt="Buy Me A Coffee" width="150px">
 </a>
-<br/>
-<br/>
-Thanks! ❤️
