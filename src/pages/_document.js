@@ -18,15 +18,15 @@ export default function Document() {
                 <meta name="apple-mobile-web-app-title" content={Package.author} />
                 <meta name="robots" content="index, follow" />
 
-                <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
-                <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png" />
-                <link rel="manifest" href="/images/favicon/site.webmanifest" />
+                <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+                <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+                <link rel="manifest" href="images/favicon/site.webmanifest" />
 
                 <meta property="og:title" content={Package.author} />
                 <meta property="og:url" content={Package.homepage} />
                 <meta property="og:description" content={Package.description} />
-                <meta property="og:image" content="/images/favicons/favicon-32x32.jpg" />
+                <meta property="og:image" content="images/favicons/favicon-32x32.jpg" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:locale:alternate" content="pt_BR" />
 
