@@ -1,5 +1,9 @@
+const repo = "color-palettes";
+
 const nextConfig = {
-    output: "export"
+    output: "export",
+    basePath: `/${repo}`,
+    assetPrefix: `/${repo}/`,
 };
 
 module.exports = nextConfig;
