@@ -7,7 +7,7 @@
         "dev": "next dev",
         "lint": "npx eslint .",
         "build": "next build",
-        "lint-fix": "npx eslint . --fix",
+        "lint-fix": "npx eslint src --fix",
         "update-dependencies": "npx npm-check-updates -u"
     },
     "keywords": [
