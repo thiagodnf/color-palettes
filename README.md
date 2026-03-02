@@ -1,5 +1,14 @@
 <img src="https://user-images.githubusercontent.com/114015/101209068-26672480-3641-11eb-9053-5cdd57e16af1.png" width="400px">
 
+<kbd>
+    <img class="screenshot" src="public/images/logo-full-light.png"/>
+</kbd>
+
+<picture >
+	<source srcset="public/images/logo-full-light.png" media="(prefers-color-scheme: dark)">
+	<img src="public/images/logo-full-light.png" width="500px">
+</picture>
+
 A set of useful color palettes for your project
 
 [![GitHub Release](https://img.shields.io/github/release/thiagodnf/color-palettes.svg)](https://github.com/thiagodnf/color-palettes/releases/latest)
