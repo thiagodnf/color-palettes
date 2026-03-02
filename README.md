@@ -41,7 +41,7 @@ npm run eslint-fix
 ## Screenshot
 
 <kbd>
-    <img class="screenshot" src="images/screenshots.png"/>
+    <img class="screenshot" src="public/images/screenshots.png"/>
 </kbd>
 
 ## Questions or Suggestions
