@@ -15,7 +15,7 @@ export default function Document() {
                 <meta name="theme-color" content="#2C3035" />
                 <meta name="apple-mobile-web-app-capable" content="yes" />
                 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-                <meta name="apple-mobile-web-app-title" content={Package.author} />
+                <meta name="apple-mobile-web-app-title" content="Color Palettes" />
                 <meta name="robots" content="index, follow" />
 
                 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
@@ -23,7 +23,7 @@ export default function Document() {
                 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
                 <link rel="manifest" href="images/favicon/site.webmanifest" />
 
-                <meta property="og:title" content={Package.author} />
+                <meta property="og:title" content="Color Palettes" />
                 <meta property="og:url" content={Package.homepage} />
                 <meta property="og:description" content={Package.description} />
                 <meta property="og:image" content="images/favicons/favicon-32x32.jpg" />
