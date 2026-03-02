@@ -17,6 +17,12 @@ If you want to access the list of color palettes, please access the following li
 
 https://thiagodnf.github.io/color-palettes/
 
+## Screenshot
+
+<kbd>
+    <img class="screenshot" src="public/images/screenshot.png"/>
+</kbd>
+
 ## For Developers
 
 To install the this project in your machine, please install all dependencies by using the following command:
@@ -41,11 +47,7 @@ To add a new color palette, change the following file:
 
 https://github.com/thiagodnf/color-palettes/blob/master/data/palettes.json
 
-## Screenshot
 
-<kbd>
-    <img class="screenshot" src="public/images/screenshot.png"/>
-</kbd>
 
 ## Questions or Suggestions
 
